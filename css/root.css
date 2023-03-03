@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(204, 204, 204);
+    opacity: 0.79;
+}
+
+body
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+@keyframes test {
+    0% {
+        transform: rotate(100deg);
+        box-shadow: 6px 6px 8px rgb(233, 106, 106), 4px 12px 8px rgb(113, 57, 226);
+       
+    }
+
+    33% {
+        transform: rotate(140deg);
+        box-shadow: 8px 12px 6px rgb(0, 0, 0), 4px 3px 4px rgb(0, 0, 0);
+        
+    }
+
+    70% {
+        transform: rotate(160deg);
+        box-shadow: 4px 3px 4px rgb(109, 50, 50), 4px 3px 4px rgb(126, 62, 245);
+       
+    }
+
+    100% {
+        background-color: rgb(216, 216, 216);
+        transform: rotate(-60deg);
+    }
+}
+
+form h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 6px 2px rgb(255, 255, 255), -3px -7px -7px rgb(147, 147, 255);
+
+}
+
+form {
+    
+    margin-top: 25px ;
+    height: 200px;
+    width: 320px;
+   
+    border-radius: 12px;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    animation-name: test;
+    animation-duration: 0.8s;
+}
+
+#log {
+    margin-top: 15px;
+    width: 90px;
+    border-radius: 16px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 5px rgb(253, 180, 180), 3px 4px 4px rgb(228, 228, 233);
+}
+
+
+input {
+    font-size: 16px;
+    box-shadow: 4px 6px 6px rgb(233, 233, 255);
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 42px;
+    left: 15px;
+    text-align: center;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+ 
+    background-color: white;
+}
+
+.input_space {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #7ba1c4;
+    padding: 10px 0;
+}
+.container
+{
+    font-family: arial;
+        font-size: 24px;
+        margin: 25px ;
+        width: 350px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}

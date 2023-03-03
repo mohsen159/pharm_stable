@@ -1,0 +1,3 @@
+
+update the employs file . 
+UPDATE `sales` SET `sales_id`=1 WHERE 1 
